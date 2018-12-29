@@ -1,2 +1,3 @@
-neo
-  hello: hello world~!
+spring:
+  application: 
+    name: config
