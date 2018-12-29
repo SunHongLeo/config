@@ -3,6 +3,6 @@ server:
   
 
 config:
-  picServerUrl: http://36.152.34.20:1  #外网地址
+  picServerUrl: http://36.152.34.20:111  #外网地址
   uploadUrl: http://192.168.10.201:18089 #内网地址
   tmpFilePath: /program/tmp
