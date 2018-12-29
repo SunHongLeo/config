@@ -1,1 +1,14 @@
-hello world!
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:10000/eureka/
+spring:
+  messages:
+    encoding: UTF-8
+    basename: i18n/messages/messages
+  jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        default-property-inclusion: always
+        time-zone: GMT+8
+
+  
