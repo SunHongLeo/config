@@ -6,26 +6,12 @@ spring:
     port: 5672
     username: admin
     password: admin
-  cloud:
-    bus:
-      refresh:
-        enabled: true
-    config:
-      discovery:
-        enabled:  true
-        service-id: config
-
 config:
   picServerUrl: http://36.152.34.20:500  #外网地址
   uploadUrl: http://192.168.10.201:18089 #内网地址
   tmpFilePath: /program/tmp
 management:
-  endpoint:
-    bus-refresh:
-      enabled: true
-  security:
-    enabled: false
   endpoints:
     web:
       exposure:
-        include: bus-refresh
+        include:  bus-refresh
