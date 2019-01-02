@@ -10,6 +10,10 @@ spring:
     bus:
       refresh:
         enabled: true
+    config:
+      discovery:
+        enabled:  true
+        service-id: config
 
 config:
   picServerUrl: http://36.152.34.20:400  #外网地址
