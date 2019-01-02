@@ -7,7 +7,7 @@ spring:
     encoding: UTF-8
     basename: i18n/messages/messages
   jackson:
-        date-format: yyyy-MM-dd
+        date-format: yyyy-MM-dd HH:mm:ss
         default-property-inclusion: always
         time-zone: GMT+8
 
