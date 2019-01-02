@@ -16,6 +16,11 @@ config:
   uploadUrl: http://192.168.10.201:18089 #内网地址
   tmpFilePath: /program/tmp
 management:
+  endpoint:
+    bus-refresh:
+      enabled: true
+  security:
+    enabled: false
   endpoints:
     web:
       exposure:
