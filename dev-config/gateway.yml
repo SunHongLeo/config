@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring: 
+  cloud:
+    gateway:
+      routes:
+      - id: user
+        uri: http://127.0.0.1:10002 #转换到User
+        predicates:
+        - Path=/user/**
+        filters:
+        - UserAuthorize
